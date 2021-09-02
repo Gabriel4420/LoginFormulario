@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,42 @@
     <link rel="stylesheet" href="../src/assets/styles/bootstrap.min.css" />
     <link rel="stylesheet" href="../src/assets/styles/bootstrap-grid.min.css" />
 </head>
-<body>
-    
 
+<body>
+
+    <div class="area">
+        <img src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo"
+            alt="logo">
+        <h1 class="display-6">Faça o Login</h1>
+
+        <form method="get">
+            <br/>
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email" class="form-control" />
+            </div>
+            <br/>
+
+            <div class="input-group mb-3">
+                <input type="email" name="password" id="password" placeholder="Digite sua senha" class="form-control" />
+            </div>
+
+            <label class="remember">
+                <input type="checkbox" name="remember" value="1">
+                lembrar minha senha
+            </label>
+            <div class="d-grid gap-2">
+                <input type="submit" value="Entrar" class="btn btn-lg btn-block btn-primary">
+            </div>
+            <br/>
+
+        </form>
+
+        <p class="text-muted">&copy; 2021 - All rights reserved </p>
+        
+    </div>
     <script type="text/javascript" src="../src/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="../src/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

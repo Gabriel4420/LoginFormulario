@@ -1,4 +1,22 @@
 body {
+    display:flex;
+    justify-content:center;
+    align-items: center;
     background-color:#eee;
-    
+    min-height:100vh;
+}
+
+.area{
+    width: 100%;
+    max-width: 530px;
+    text-align: center;
+    padding:20px;
+}
+
+.logo{
+    width:100%;
+}
+
+.remember{
+    padding:20px 0;
 }
